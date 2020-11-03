@@ -1,60 +1,60 @@
 {
-  "name": "crypto-wallets",
-  "version": "1.0.0",
-  "description": "Simple cryptocurrency wallet generator for javascript",
-  "main": "cryptowallets.js",
-  "scripts": {
-    "test": "node ./test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jrthunell/crypto-wallets.git"
-  },
-  "keywords": [
-    "Crypto",
-    "Cryptocurrency",
-    "Wallet",
-    "Wallets",
-    "Address",
-    "Addresses",
-    "Private Key",
-    "Bitcoin",
-    "Bitcoin Cash",
-    "Ethereum",
-    "Litecoin",
-    "Monero",
-    "Peercoin",
-    "Namecoin",
-    "Dogecoin",
-    "Tezos",
-    "IOTA",
-    "BTC",
-    "BCH",
-    "ETH",
-    "LTC",
-    "XMR",
-    "XTZ",
-    "PPC",
-    "NMC",
-    "DOGE",
-    "IOTA"
-  ],
-  "author": "Jeremy Thunell",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jrthunell/crypto-wallets/issues"
-  },
-  "homepage": "https://github.com/jrthunell/crypto-wallets#readme",
-  "dependencies": {
-    "bitcore-lib-cash": "^0.19.0",
-    "coininfo": "^4.3.0",
-    "coinkey": "^1.0.0",
-    "ethereumjs-wallet": "^0.6.3",
-    "iota.lib.js": "^0.5.1",
-    "mymonero-core-js": "git+https://github.com/mymonero/mymonero-core-js.git",
-    "tezos-sign": "^1.4.1"
-  },
-  "bin": {
-    "crypto-wallets": "./cli.js"
-  }
+    "name": "crypto-wallets",
+    "version": "1.0.0",
+    "description": "Simple cryptocurrency wallet generator for javascript",
+    "main": "cryptowallets.js",
+    "scripts": {
+        "test": "node ./test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jrthunell/crypto-wallets.git"
+    },
+    "keywords": [
+        "Crypto",
+        "Cryptocurrency",
+        "Wallet",
+        "Wallets",
+        "Address",
+        "Addresses",
+        "Private Key",
+        "Bitcoin",
+        "Bitcoin Cash",
+        "Ethereum",
+        "Litecoin",
+        "Monero",
+        "Peercoin",
+        "Namecoin",
+        "Dogecoin",
+        "Tezos",
+        "IOTA",
+        "BTC",
+        "BCH",
+        "ETH",
+        "LTC",
+        "XMR",
+        "XTZ",
+        "PPC",
+        "NMC",
+        "DOGE",
+        "IOTA"
+    ],
+    "author": "Jeremy Thunell",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jrthunell/crypto-wallets/issues"
+    },
+    "homepage": "https://github.com/jrthunell/crypto-wallets#readme",
+    "dependencies": {
+        "bitcore-lib-cash": "^8.23.0",
+        "coininfo": "^4.3.0",
+        "coinkey": "^1.0.0",
+        "ethereumjs-wallet": "^0.6.3",
+        "iota.lib.js": "^0.5.1",
+        "mymonero-core-js": "git+https://github.com/mymonero/mymonero-core-js.git",
+        "tezos-sign": "^1.4.1"
+    },
+    "bin": {
+        "crypto-wallets": "./cli.js"
+    }
 }
