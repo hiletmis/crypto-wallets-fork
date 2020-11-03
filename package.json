@@ -1,6 +1,6 @@
 {
-    "name": "crypto-wallets",
-    "version": "1.0.0",
+    "name": "crypto-wallets-fork-1",
+    "version": "1.0.1",
     "description": "Simple cryptocurrency wallet generator for javascript",
     "main": "cryptowallets.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jrthunell/crypto-wallets.git"
+        "url": "git+https://github.com/hiletmis/crypto-wallets-fork.git"
     },
     "keywords": [
         "Crypto",
@@ -55,6 +55,6 @@
         "tezos-sign": "^1.4.1"
     },
     "bin": {
-        "crypto-wallets": "./cli.js"
+        "crypto-wallets": "cli.js"
     }
 }
